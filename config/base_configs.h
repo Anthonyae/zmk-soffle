@@ -1,4 +1,4 @@
-// Layer definitions
+// Layer definitions.
 #define DEFAULT_HM 0
 #define DEFAULT_HM_ONE 1
 #define DEFAULT_HM_TWO 2

@@ -8,7 +8,7 @@
 #undef SCROLL_RIGHT
 
 /*
- * Mouse Settings Base layer
+ * Mouse Settings Base layer.
  */
 #define U_MOUSE_MOVE_MAX 3200
 #define U_MOUSE_SCROLL_MAX 100 // Changed from 75 to 100  because someone said that it makes encoder work - https://gist.github.com/krissen/dd27082e7ab0575619c7a31f4d2ec7ae?permalink_comment_id=4752313
