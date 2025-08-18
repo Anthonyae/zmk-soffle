@@ -59,7 +59,7 @@
         &none                   	&hm_default_l LCTRL A   	&hm_default_l LSHFT S   	&hm_default_l LGUI D    	&hm_default_l LALT F    	&kp B                   		                        	&hm_default_r HIKE H    	&hm_default_r RALT J    	&hm_default_r RGUI K    	&hm_default_r RSHFT L   	&hm_default_r RCTRL APOS	&none
         &none                   	&hm_default_l LSHFT Z   	&lt UTILITY X           	&kp C                   	&hm_default_l MEH V     	&lt NUMBER BSPC         	&kp N8                  	&kp N9                  	&kp N                   	&hm_default_r MEH M     	&kp COMMA               	&lt UTILITY DOT         	&hm_default_r LSHFT FSLH	&none
                                         &kp N1                  	&kp N2                  	&lt SYMBOL BSPC         	&lt NUMBER BSPC         	&lt NUMBER BSPC         		                        	&lt FUNC ENTER          	&lt FUNC ENTER          	&lt NAV SPACE           	&lt NAV SPACE           	&kp N3                  	                        
-        >; sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp LC(LEFT) RC(RIGHT)>; };										
+        >; sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp LC(LEFT)  >; };
         default_hm_one_layer {												
                         bindings = <											 
         &kp T               	&kp N1              	&kp N2              	&kp N3              	&kp N4              	&kp N5              		                    	&kp N6              	&kp N7              	&kp N8              	&kp N9              	&kp N0              	&none               
