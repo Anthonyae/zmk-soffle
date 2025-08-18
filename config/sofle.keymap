@@ -126,7 +126,7 @@
                 >; sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp LC(LEFT) RC(RIGHT)>; };												
                 util_layer {												
                         bindings = <											
-        &kp ESCAPE       	&kp N1           	&kp N2           	&kp N3           	&kp N4           	&kp N5           			&kp N6           	&kp N7           	&kp N8           	&kp N9           	&kp N0           	&kp BACKSPACE    
+        &kp ESCAPE       	&kp N1           	&kp N2           	&kp N3           	&kp N4           	&kp N5           			&kp C_BACKLIGHT_TOGGLE           	&kp C_BRI_INC           	&kp C_BRI_DEC           	&kp N9           	&kp N0           	&kp BACKSPACE    
         &kp TAB          	&soft_off        	&kp SLCK         	&bt BT_SEL 0     	&bt BT_SEL 1     	&out OUT_USB     			&kp K_PLAY_PAUSE 	&kp C_BRI_DN     	&kp C_BRI_UP     	&ext_power EP_OFF	&macro_go_windows	&kp BACKSPACE    
         &kp BSLH         	&bootloader      	&none            	&bt BT_SEL 2     	&bt BT_SEL 3     	&out OUT_BLE     	        	        	&kp C_PLAY_PAUSE 	&kp C_PREV       	&kp C_NEXT       	&none            	&macro_go_ios    	&kp ENTER        
         &none            	&sys_reset       	&mo LAYER_CHANGER	&bt BT_SEL 4     	&bt BT_SEL 5     	&bt BT_CLR       	&kp C_MUTE       	&kp C_PLAY_PAUSE 	&kp C_MUTE       	&kp C_VOLUME_DOWN	&kp C_VOLUME_UP  	&mo LAYER_CHANGER	&sys_reset       	&none            
