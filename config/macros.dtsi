@@ -129,6 +129,16 @@
     };
 
     // log: get list of branches
+    git_branch: git_branch {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <20>;
+        tap-ms = <20>;
+        bindings = <&macro_tap &kp G &kp I &kp T &kp SPACE &kp B &kp R &kp A &kp N &kp C &kp H &kp ENTER>
+        ;
+    };
+
+    // log: get list of branches
     git_reflog: git_reflog {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
