@@ -414,7 +414,7 @@
     macro_go_windows: macro_go_windows {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        wait-ms = <0>;
+        wait-ms = <50>;
         tap-ms = <40>;
         bindings = 
             <&out OUT_BLE>
@@ -426,7 +426,7 @@
     macro_go_ios: macro_go_ios {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        wait-ms = <0>;
+        wait-ms = <50>;   // give BT time to process
         tap-ms = <40>;
         bindings = 
             <&out OUT_BLE>
