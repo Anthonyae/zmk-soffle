@@ -541,6 +541,30 @@
             , <&to DEFAULT_IOS>
             ;
     };
+
+    macro_go_ios_four: macro_go_ios_four {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <50>;
+        tap-ms = <40>;
+        bindings = 
+            <&out OUT_BLE>
+            , <&bt BT_SEL 4>
+            , <&to DEFAULT_IOS>
+            ;
+    };
+
+    macro_go_ios_five: macro_go_ios_five {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <50>;
+        tap-ms = <40>;
+        bindings = 
+            <&out OUT_BLE>
+            , <&bt BT_SEL 5>
+            , <&to DEFAULT_IOS>
+            ;
+    };
      
 // work
     macro_jira_issue: macro_jira_issue {
