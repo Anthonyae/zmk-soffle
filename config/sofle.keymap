@@ -204,7 +204,7 @@
         &kp BSLH            	&none               	&none               	&to DEFAULT_HM_NONE 	&to DEFAULT_HM_THREE	&to DEFAULT_IOS     	                 	                 	&ext_power EP_ON    	&rgb_ug RGB_SPD     	&rgb_ug RGB_SPI     	&none               	&none               	&kp ENTER           
         &none               	&none               	&none               	&none               	&none               	&none               	&kp C_MUTE          	&kp C_PLAY_PAUSE    	&ext_power EP_OFF   	&rgb_ug RGB_EFR     	&rgb_ug RGB_EFF     	&none               	&none               	&none               
                                 &trans              	&trans              	&trans              	&trans              	&trans              			&trans              	&trans              	&trans              	&trans              	&trans              	                    
-
+                >; sensor-bindings = <&inc_dec_kp UP DOWN &inc_dec_kp LC(LEFT) RC(RIGHT)>; };
 
         };
  };
