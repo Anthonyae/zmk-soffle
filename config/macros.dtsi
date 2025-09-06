@@ -421,22 +421,83 @@
     };
 
 // go to layers
-    macro_go_windows: macro_go_windows {
+
+    macro_go_windows_zero: macro_go_windows_zero {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        wait-ms = <50>;
+        wait-ms = <0>; // give BT time to process, don't think its needed.
         tap-ms = <40>;
-        bindings = 
+        bindings = one<&out OUT_BLE>
+            <&out OUT_BLE>
+            , <&bt BT_SEL 0>
+            , <&to DEFAULT_HM>
+            ;
+    };
+
+    macro_go_windows_one : macro_go_windows_one {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <0>; // give BT time to process, don't think its needed.
+        tap-ms = <40>;
+        bindings = one<&out OUT_BLE>
+            <&out OUT_BLE>
+            , <&bt BT_SEL 1>
+            , <&to DEFAULT_HM>
+            ;
+    };
+
+    macro_go_windows_two: macro_go_windows_two {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <0>; // give BT time to process, don't think its needed.
+        tap-ms = <40>;
+        bindings = one<&out OUT_BLE>
             <&out OUT_BLE>
             , <&bt BT_SEL 2>
             , <&to DEFAULT_HM>
             ;
     };
 
-    macro_go_ios: macro_go_ios {
+    macro_go_windows_three: macro_go_windows_three {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        wait-ms = <50>;   // give BT time to process
+        wait-ms = <0>; // give BT time to process, don't think its needed.
+        tap-ms = <40>;
+        bindings = one<&out OUT_BLE>
+            <&out OUT_BLE>
+            , <&bt BT_SEL 3>
+            , <&to DEFAULT_HM>
+            ;
+    };
+
+    macro_go_windows_four: macro_go_windows_four {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <0>; // give BT time to process, don't think its needed.
+        tap-ms = <40>;
+        bindings = one<&out OUT_BLE>
+            <&out OUT_BLE>
+            , <&bt BT_SEL 4>
+            , <&to DEFAULT_HM>
+            ;
+    };
+
+    macro_go_windows_five: macro_go_windows_five {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <0>; // give BT time to process, don't think its needed.
+        tap-ms = <40>;
+        bindings = 
+            <&out OUT_BLE>
+            , <&bt BT_SEL 5>
+            , <&to DEFAULT_HM>
+            ;
+    };
+    
+    macro_go_ios_zero: macro_go_ios_zero {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <0>;   // give BT time to process
         tap-ms = <40>;
         bindings = 
             <&out OUT_BLE>
@@ -445,6 +506,42 @@
             ;
     };
 
+    macro_go_ios_one: macro_go_ios_one {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <0>;   // give BT time to process
+        tap-ms = <40>;
+        bindings = 
+            <&out OUT_BLE>
+            , <&bt BT_SEL 1>
+            , <&to DEFAULT_IOS>
+            ;
+    };
+
+    macro_go_ios_two: macro_go_ios_two {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <0>;   // give BT time to process
+        tap-ms = <40>;
+        bindings = 
+            <&out OUT_BLE>
+            , <&bt BT_SEL 2>
+            , <&to DEFAULT_IOS>
+            ;
+    };
+
+    macro_go_ios_three: macro_go_ios_three {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <0>;   // give BT time to process
+        tap-ms = <40>;
+        bindings = 
+            <&out OUT_BLE>
+            , <&bt BT_SEL 3>
+            , <&to DEFAULT_IOS>
+            ;
+    };
+     
 // work
     macro_jira_issue: macro_jira_issue {
         compatible = "zmk,behavior-macro";
