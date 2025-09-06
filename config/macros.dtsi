@@ -427,7 +427,7 @@
         #binding-cells = <0>;
         wait-ms = <0>; // give BT time to process, don't think its needed.
         tap-ms = <40>;
-        bindings = one<&out OUT_BLE>
+        bindings =
             <&out OUT_BLE>
             , <&bt BT_SEL 0>
             , <&to DEFAULT_HM>
@@ -439,7 +439,7 @@
         #binding-cells = <0>;
         wait-ms = <0>; // give BT time to process, don't think its needed.
         tap-ms = <40>;
-        bindings = one<&out OUT_BLE>
+        bindings =
             <&out OUT_BLE>
             , <&bt BT_SEL 1>
             , <&to DEFAULT_HM>
@@ -451,7 +451,7 @@
         #binding-cells = <0>;
         wait-ms = <0>; // give BT time to process, don't think its needed.
         tap-ms = <40>;
-        bindings = one<&out OUT_BLE>
+        bindings = 
             <&out OUT_BLE>
             , <&bt BT_SEL 2>
             , <&to DEFAULT_HM>
@@ -463,7 +463,7 @@
         #binding-cells = <0>;
         wait-ms = <0>; // give BT time to process, don't think its needed.
         tap-ms = <40>;
-        bindings = one<&out OUT_BLE>
+        bindings = 
             <&out OUT_BLE>
             , <&bt BT_SEL 3>
             , <&to DEFAULT_HM>
@@ -475,7 +475,7 @@
         #binding-cells = <0>;
         wait-ms = <0>; // give BT time to process, don't think its needed.
         tap-ms = <40>;
-        bindings = one<&out OUT_BLE>
+        bindings = 
             <&out OUT_BLE>
             , <&bt BT_SEL 4>
             , <&to DEFAULT_HM>
