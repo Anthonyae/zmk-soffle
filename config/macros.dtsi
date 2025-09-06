@@ -434,7 +434,7 @@
             ;
     };
 
-    macro_go_windows_one : macro_go_windows_one {
+    macro_go_windows_one: macro_go_windows_one {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         wait-ms = <50>;
