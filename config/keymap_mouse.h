@@ -72,7 +72,7 @@
 #define SCROLL_RIGHT_SLOW MOVE_X(U_MOUSE_SCROLL_MAX_SLOW)
 
 /*
- * Mouse Settings DEAD layer
+ * Mouse Settings Crawl layer
  */
 #define U_MOUSE_MOVE_MAX_CRAWL 800
 #define U_MOUSE_SCROLL_MAX_CRAWL 15
