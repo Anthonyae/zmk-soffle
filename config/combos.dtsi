@@ -121,7 +121,7 @@ combo_bootloader_left {
     timeout-ms = <COMBO_TERM_HIGH>;
     key-positions = <LM0 LB0>;
     bindings = <&bootloader>;
-    layers = <UTILITY>;
+    layers = <UTILITY>; 
 };
 
 combo_bootloader_right {
