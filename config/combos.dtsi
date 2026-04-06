@@ -30,7 +30,6 @@ compatible = "zmk,combos";
 // layers
 // What layer am I on?
 // Device settings
-// Windows equivelant commands for IOS
 // Tricks
 // modifiers
 // symbols
@@ -132,21 +131,6 @@ combo_bootloader_right {
     layers = <UTILITY>;
 };
 
-// Windows equivelant commands for IOS
-
-combo_ios_alt_tab {
-    timeout-ms = <COMBO_TERM_HIGH>;
-    key-positions = <LM1 RM1 RM2>;
-    bindings = <&macro_windows_for_ios_alt_tab>;
-    layers = <DEFAULT_IOS>;
-};
-
-combo_ios_ctrl_bspc {
-    timeout-ms = <COMBO_TERM_HIGH>;
-    key-positions = <RM4 LH2>;
-    bindings = <&macro_windows_for_ios_ctrl_bksp>;
-    layers = <DEFAULT_IOS>;
-}
 
 // Tricks 
 
