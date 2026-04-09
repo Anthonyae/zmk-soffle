@@ -146,7 +146,7 @@ combo_ios_ctrl_bspc {
     key-positions = <RM4 LH2>;
     bindings = <&macro_windows_for_ios_ctrl_bksp>;
     layers = <DEFAULT_IOS>;
-}
+},
 
 // Tricks 
 
