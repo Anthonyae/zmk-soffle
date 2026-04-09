@@ -317,9 +317,9 @@
         wait-ms = <40>;
         tap-ms = <40>;
         bindings = 
-            <&macro_press &kp LCTRL>
+            <&macro_press &kp LGUI>
             , <&macro_tap &kp GRAVE>
-            , <&macro_release &kp LCTRL>
+            , <&macro_release &kp LGUI>
         ;
     };
 
@@ -332,6 +332,16 @@
             <&macro_press &kp LALT>
             , <&macro_tap &kp BSPC>
             , <&macro_release &kp LALT>
+        ;
+    };
+
+    ios_test: ios_test {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <40>;
+        tap-ms = <40>;
+        bindings = 
+            <&macro_tap &kp BSPC>
         ;
     };
 

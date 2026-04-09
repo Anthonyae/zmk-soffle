@@ -148,6 +148,13 @@ combo_ios_ctrl_bspc {
     layers = <DEFAULT_IOS>;
 };
 
+combo_test {
+    timeout-ms = <COMBO_TERM_HIGH>;
+    key-positions = <RM4 RM3>;
+    bindings = <&ios_test>;
+    layers = <DEFAULT_IOS>;
+};
+
 // Tricks 
 
 combo_new_sentence {
