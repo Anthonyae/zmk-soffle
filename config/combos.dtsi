@@ -144,7 +144,7 @@ combo_ios_alt_tab {
 combo_ios_ctrl_bspc {
     timeout-ms = <COMBO_TERM_HIGH>;
     key-positions = <RM4 LH2>;
-    bindings = <&macro_windows_for_ios_ctrl_bksp>;
+    bindings = <&ios_ctrl_bksp>;
     layers = <DEFAULT_IOS>;
 };
 

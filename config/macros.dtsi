@@ -314,7 +314,7 @@
     ios_app_switch: ios_app_switch {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        wait-ms = <0>;
+        wait-ms = <40>;
         tap-ms = <40>;
         bindings = 
             <&macro_press &kp LCTRL>
@@ -323,10 +323,10 @@
         ;
     };
 
-    macro_windows_for_ios_ctrl_bksp: macro_windows_for_ios_ctrl_bksp {
+    ios_ctrl_bksp: ios_ctrl_bksp {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        wait-ms = <5>;
+        wait-ms = <40>;
         tap-ms = <40>;
         bindings = 
             <&macro_press &kp LALT>
