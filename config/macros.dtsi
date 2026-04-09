@@ -311,7 +311,7 @@
         ;
     };
 
-    macro_windows_for_ios_alt_tab: macro_windows_for_ios_alt_tab {
+    ios_app_switch: ios_app_switch {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         wait-ms = <0>;
@@ -326,7 +326,7 @@
     macro_windows_for_ios_ctrl_bksp: macro_windows_for_ios_ctrl_bksp {
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
-        wait-ms = <0>;
+        wait-ms = <5>;
         tap-ms = <40>;
         bindings = 
             <&macro_press &kp LALT>
