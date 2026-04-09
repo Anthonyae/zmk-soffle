@@ -152,7 +152,7 @@ combo_test {
     timeout-ms = <COMBO_TERM_HIGH>;
     key-positions = <RM4 RM3>;
     bindings = <&ios_test>;
-    layers = <DEFAULT_IOS>;
+    layers = <DEFAULT_IOS BASE_LAYERS>;
 };
 
 // Tricks 
